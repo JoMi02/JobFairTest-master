@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Treći suit">
+    <test verbose="2" name="JobFairTest">
+        <classes>
+            <class name="Student.StudentTest">
+                <methods>
+                    <include name="ProveravanjeMogucnostiStudent"/>
+                    <include name="PretragaIPrijavaKonkursa"/>
+                    <include name="UpisivanjePocetnimMalimSlovima"/>
+                    <include name="IzmeniCV"/>
+                    <include name="NemaOpisa"/>
+                    <include name="PogledajRezultateKonkursa"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

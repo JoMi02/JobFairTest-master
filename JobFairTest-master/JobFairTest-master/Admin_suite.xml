@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prvi suite">
+    <test verbose="2" name="JobFairTest">
+        <classes>
+            <class name="Administrator.AdministratorTest">
+                <methods>
+                    <include name="NeupisivanjeRokova"/>
+                    <include name="ProveravanjeRokova"/>
+                    <exclude name="ProveravanjeMogucnosti"/>
+                    <include name="NeUpisivanjeNazivaiOpisaSajma"/>
+                    <include name="UspesnoKreiranjeSajmaKorak1"/>
+                    <include name="UspesnoKreiranjeSajmaKorak2"/>
+                    <include name="NeUpisivanjeNazivaPaketa"/>
+                    <include name="NeUpisivanjeCenePaketa "/>
+                    <include name="NeupisivanjeOstalihPodataka "/>
+                    <include name="UspesnoKreiranjeSajmaKorak3"/>
+
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
